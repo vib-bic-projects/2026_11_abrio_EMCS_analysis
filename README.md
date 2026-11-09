@@ -15,7 +15,7 @@ The ERMICC (ER-Mitochondria Contact Coefficient) is computed through the followi
 
 #### Step 1: ER Distance Map
 A Euclidean Distance Transform (EDT) is calculated on the background of the ER binary mask $ER$ to compute the distance from each pixel to the nearest ER pixel. The physical distance in nanometers is:
-$D_{\text{ER}}(x, y) = \text{EDT}(1 - ER(x, y)) \times \text{pixel\_size}$
+$D{\text{ER}}(x, y) = \text{EDT}(1 - ER(x, y)) \times \text{pixel\_size}$
 
 #### Step 2: Mitochondria Perimeter
 For each mitochondrion $i$ with mask $M_i$, the boundary pixels are identified using morphological erosion:
