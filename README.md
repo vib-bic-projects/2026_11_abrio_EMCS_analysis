@@ -8,4 +8,5 @@ python measure_ermicc.py --mito_folder <mito_folder> --er_folder <er_folder> --p
 ```
 
 ##
-$$D_{\text{ER}}(x, y) = \text{EDT}(1 - ER(x, y)) \times \text{pixel\_size}$$
+
+$$D_{\text{ER}}(x, y) = \text{EDT}(1 - ER(x, y)) \times \text{pixel}\_\text{size}$$
