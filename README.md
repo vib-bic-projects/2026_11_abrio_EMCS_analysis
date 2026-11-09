@@ -1,6 +1,9 @@
 # 2026 11 abrio EMCS analysis
 
 ## Conda environment
+```bash
+create -f environment_ermicc.yml
+```
 
 ## Run the script
 ```bash
